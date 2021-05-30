@@ -1,14 +1,10 @@
 # Basic HTML-CSS
 
-* Start from the up-to-date master branch (`git checkout main; git pull origin main`)
-* Create a feature branch named 'basic-html-css' (`git checkout -b basic-html-css`)
+* Start from the up-to-date main branch (`git pull origin main`)
 * Create the files described below
 * Add, commit, and push the branch to github
 
 ## Goal and Requirements
-
-You will create files that will be viewed by running `serve` in this directory
-  * You should assume the user has `serve` installed globally - you should not try to install it for them
 
 The idea is to show some HTML pages that share styling, use semantic HTML, and use some form elements to pass data between them.
 

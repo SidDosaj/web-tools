@@ -1,6 +1,5 @@
 # Web Tools
 
-
 ### To pull latest changes
 
 ```bash
