@@ -10,21 +10,21 @@
             <h1>"ERROR"</h1>
             <p>"Sorry, I haven't learned dynamic content yet"</p>
         </div>
-        <h4>Favourite Student</h4>
-        
-            <form action="/action_page.php"></form>
-                <label for="Name">Name of the student:</label>
-                <input type="Favourite Student"/> <br>
-                <input type="submit" value="Submit"><br>
-                <label for="See Star Students">See Star Students:</label> 
-                <input type="radio">
+    
+        <!-- 1. Create a form
+        2. create an input box for favourite student
+    3. give a label to that input box
+4.create a submit button
+5. submitting the form will take you to studets.html
+6. pass the form data to students.html as query param -->       
 
-                <form action="/action_page.php"></form>
-                <label for="Name">Name of the student:</label>
-                <input type="Favourite Student"/> <br>
-                <input type="submit" value="Submit"><br>
-                <label for="See Star Students">See Star Students:</label> 
-                <input type="radio">
+            <form action="students.html?favorite=">
+                <label for="favourite_student"> favourite student</label>
+                <input type="text" name="favourite" id="favourite_student">
+                <input type="submit" value="see star students"/>
+            </form>
+     
+       
                  
     </body>
 </html>
